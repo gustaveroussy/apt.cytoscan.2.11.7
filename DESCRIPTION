@@ -1,0 +1,14 @@
+Encoding: UTF-8
+Package: apt.cytoscan.2.11.7
+Type: Package
+Title: Affymetrix CytoScan processing using apt-copynumber-cyto-ssa (2.11.7RC02)
+Version: 0.1.0
+Author: Bastien Job [aut, cre]
+Date: 2022-07-08
+Maintainer: Bastien Job <bastien.job@inserm.fr>
+Description: Process CytoScan (750k, HD, HD Accel) CEL files using apt-copynumber-cyto-ssa (2.11.7RC02 2022-11-18) from APT.
+Depends: R (>= 3.2.1)
+Imports: foreach, parallel, doParallel
+License: MIT
+LazyData: TRUE
+NeedsCompilation: no
